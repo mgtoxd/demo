@@ -18,7 +18,7 @@ class DemoApplicationTests {
     void contextLoads() throws ClassNotFoundException, SQLException {
         String sql = "SELECT *  FROM recharge_order";
 
-        //1.加载驱动程序
+        //1.加载驱动程序adada
         Class.forName("org.opensearch.jdbc.Driver");
         //2. 获得数据库连接
         Connection conn = DriverManager.getConnection("jdbc:opensearch://10.189.64.61:9200");
